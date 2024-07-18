@@ -153,6 +153,48 @@
                 "tenantId": "925e083c-99f3-40e7-908e-26549be45368",
                 "userId": "29694a7c-0e2a-47a4-94c5-0ac492b5b5c9",
                 "createdOn": null
+            },
+    {
+                "filterId": "8af9809a-6c1831b5-016c-18caab3e-03b0",
+                "advancedFilters": null,
+                "displayRecords": 10,
+                "filterName": "Twestnew",
+                "filters": "[object Object]",
+                "isDefault": false,
+                "pageName": "invoicelisting",
+                "sortColumn": -1,
+                "sortType": null,
+                "tenantId": "925e083c-99f3-40e7-908e-26549be45368",
+                "userId": "29694a7c-0e2a-47a4-94c5-0ac492b5b5c9",
+                "createdOn": "22/07/2019"
+            },
+            {
+                "filterId": "8a4f2538-8e86ad70-018e-88ec04a0-0448",
+                "advancedFilters": "[{\"fieldName\":\"invoiceNumber\",\"direction\":\"DESC\"}]",
+                "displayRecords": 10,
+                "filterName": "test sort",
+                "filters": "{\"criteria\":[{\"fieldName\":\"docType\",\"operation\":\"EQUALS\",\"value\":\"3\",\"minValue\":0,\"maxValue\":0},{\"fieldName\":\"createdOn\",\"operation\":\"GREATER_THAN\",\"value\":\"1680071735756\",\"minValue\":0,\"maxValue\":0}]}",
+                "isDefault": false,
+                "pageName": "invoicelisting",
+                "sortColumn": -1,
+                "sortType": null,
+                "tenantId": "925e083c-99f3-40e7-908e-26549be45368",
+                "userId": "29694a7c-0e2a-47a4-94c5-0ac492b5b5c9",
+                "createdOn": "29/03/2024"
+            },
+            {
+                "filterId": "8a4f2538-8e86ad70-018e-88f11370-0449",
+                "advancedFilters": "[{\"fieldName\":\"invoiceDate\",\"direction\":\"DESC\"}]",
+                "displayRecords": 10,
+                "filterName": "test date sort",
+                "filters": "{\"criteria\":[{\"fieldName\":\"invoiceDate\",\"operation\":\"BETWEEN\",\"multivalue\":[1709164800000,1711756799000]}],\"criteriaGroup\":[{\"logicalOperator\":\"OR\",\"criteria\":[]},{\"logicalOperator\":\"OR\",\"criteria\":[],\"criteriaGroup\":[]},{\"logicalOperator\":\"OR\",\"criteria\":[],\"criteriaGroup\":[]}]}",
+                "isDefault": false,
+                "pageName": "invoicelisting",
+                "sortColumn": -1,
+                "sortType": null,
+                "tenantId": "925e083c-99f3-40e7-908e-26549be45368",
+                "userId": "29694a7c-0e2a-47a4-94c5-0ac492b5b5c9",
+                "createdOn": "29/03/2024"
             }
         ]
 }
